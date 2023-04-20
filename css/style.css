@@ -1,0 +1,71 @@
+body {
+    background-color: #e5e5e5;
+    color: #2e2f2e;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+
+    
+
+}
+
+/**
+  |============================
+  | Header
+  |============================
+*/
+.link-logo {
+
+
+}
+
+/**
+  |============================
+  | Main content
+  |============================
+*/
+.hero-slogan {
+    Font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 60px;
+        /* or 107% */
+    
+        text-align: center;
+        letter-spacing: 0.02em;
+}
+
+
+
+
+/**
+  |============================
+  | Section Feature 1
+  |============================
+*/
+
+/**
+  |============================
+  | Section What are we doing 2
+  |============================
+*/
+
+/**
+  |============================
+  | Section Our Team 3
+  |============================
+*/
+
+/**
+  |============================
+  | Footer
+  |============================
+*/
+
+/**
+  |============================
+  | Button
+  |============================
+*/
