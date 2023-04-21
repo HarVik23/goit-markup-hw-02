@@ -19,7 +19,7 @@ body {
         font-weight: 500;
         font-size: 16px;
         line-height: 24px;
-        /* identical to box height, or 150% */
+        
     
         letter-spacing: 0.02em;
 
@@ -60,6 +60,32 @@ body {
     
     
         color: #FFFFFF;
+
+}
+
+.buton-hero {
+    background: #4D5AE5;
+    color: #FFFFFF;
+
+    font-family: "Roboto";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            padding: 16px 32px;
+            gap: 10px;
+        
+            position: absolute;
+            width: 169px;
+            height: 56px;
+            left: 636px;
+            top: 428px;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+            border-radius: 4px;
+            letter-spacing: 0.04em;
 
 }
 
