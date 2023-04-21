@@ -12,7 +12,20 @@ body {
   | Header
   |============================
 */
+.menu-link {
 
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        /* identical to box height, or 150% */
+    
+        letter-spacing: 0.02em;
+
+    
+        color: #2E2F42;
+}
 
 
 
@@ -21,6 +34,18 @@ body {
   | Main content
   |============================
 */
+.hero-section {
+
+    position: absolute;
+        width: 1440px;
+        height: 600px;
+        left: 0px;
+        top: 72px;
+    
+        background: #2E2F42;
+}
+
+
 .hero-slogan {
     Font-family: 'Roboto';
         font-style: normal;
@@ -31,6 +56,7 @@ body {
     
         text-align: center;
         letter-spacing: 0.02em;
+
 }
 
 
