@@ -34,8 +34,12 @@ body {
 */
 .hero-slogan {
   color: #ffffff;
+}
+
+.hero-section {
   background: #2e2f42;
 }
+
 .buton-hero {
   color: #ffffff;
   background: #4d5ae5;
