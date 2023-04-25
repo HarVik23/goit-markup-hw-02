@@ -70,10 +70,13 @@ body {
 .addres {
   font-style: normal;
 }
-.addres-link:hover,
-:focus {
-  color: var(--color-iris);
+.addres-link:hover {
+  color: var(--color-ocean);
 }
+.addres-link:focus {
+  color: var(--color-ocean);
+}
+
 .addres-link {
   color: var(--color-slate);
   font-weight: 400;
