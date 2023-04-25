@@ -241,6 +241,8 @@ body {
 */
 
 .about-buton {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
   font-weight: 500;
   cursor: pointer;
   color: var(--color-iris);
@@ -251,6 +253,11 @@ body {
   font-size: 16px;
 }
 .but-all {
+  color: var(--color-white);
+  background-color: var(--color-ocean);
+}
+.about-buton:hover,
+.about-buton:focus {
   color: var(--color-white);
   background-color: var(--color-ocean);
 }
