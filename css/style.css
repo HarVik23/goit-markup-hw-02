@@ -61,10 +61,13 @@ body {
   letter-spacing: 0.02em;
   text-decoration: none;
 }
-.mag:hover {
+.mag:hover,
+:focus {
   color: var(--color-ocean);
 }
-
+.addres {
+  font-style: normal;
+}
 .addres-link:hover,
 :focus {
   color: var(--color-white);
@@ -77,7 +80,6 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-decoration: none;
-  font-style: normal;
 }
 /**
   |============================
@@ -123,6 +125,7 @@ body {
 }
 
 .lisl-feature {
+  font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
@@ -203,7 +206,7 @@ body {
   line-height: 150%;
 }
 .studio-footer {
-  font-family: "Raleway" sans-serif;
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
@@ -214,7 +217,7 @@ body {
   color: var(--color-cloud);
 }
 .web-footer {
-  font-family: "Raleway" sans-serif;
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
