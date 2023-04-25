@@ -61,8 +61,10 @@ body {
   letter-spacing: 0.02em;
   text-decoration: none;
 }
-.mag:hover,
-:focus {
+.mag:hover {
+  color: var(--color-ocean);
+}
+.mag:focus {
   color: var(--color-ocean);
 }
 .addres {
@@ -112,7 +114,10 @@ body {
   font-family: inherit;
 }
 .buton-hero:hover {
-  color: var(--color-iris);
+  background-color: var(--color-ocean);
+}
+.buton-hero:focus {
+  background-color: var(--color-ocean);
 }
 /**
   |============================
