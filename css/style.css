@@ -247,6 +247,7 @@ body {
   letter-spacing: 0.04em;
   line-height: 1.5;
   font-family: inherit;
+  font-size: 16px;
 }
 .about-buton {
   font-weight: 500;
@@ -256,6 +257,7 @@ body {
   letter-spacing: 0.04em;
   line-height: 1.5;
   font-family: inherit;
+  font-size: 16px;
 }
 
 /**
