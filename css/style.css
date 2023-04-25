@@ -56,15 +56,17 @@ body {
 }
 .list-nav {
   color: var(--color-navy-blue);
-  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-decoration: none;
 }
+.mag:hover {
+  color: var(--color-ocean);
+}
 
-.list-addres .addres-link:hover,
-.list-addres .addres-link:focus {
+.addres-link:hover,
+:focus {
   color: var(--color-white);
   color: var(--color-iris);
 }
@@ -95,12 +97,16 @@ body {
 }
 
 .buton-hero {
+  cursor: pointer;
   color: var(--color-white);
   background-color: var(--color-iris);
   font-size: 16px;
   line-height: 1.5;
   align-items: center;
   letter-spacing: 0.04em;
+}
+.buton-hero:hover {
+  color: var(--color-iris);
 }
 /**
   |============================
@@ -212,12 +218,14 @@ body {
   |============================
 */
 .buton-all {
+  cursor: pointer;
   color: var(--color-white);
   background-color: var(--color-ocean);
   letter-spacing: 0.04em;
   line-height: 1.5;
 }
 .about-buton {
+  cursor: pointer;
   color: var(--color-iris);
   background-color: var(--color-cloud);
   letter-spacing: 0.04em;
