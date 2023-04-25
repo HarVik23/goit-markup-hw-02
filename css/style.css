@@ -72,7 +72,6 @@ body {
 }
 .addres-link:hover,
 :focus {
-  color: var(--color-white);
   color: var(--color-iris);
 }
 .addres-link {
